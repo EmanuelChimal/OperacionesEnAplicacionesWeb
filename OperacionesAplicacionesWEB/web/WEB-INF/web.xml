@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>LocalidadLoad</servlet-name>
+        <servlet-class>Componentes.LocalidadLoad</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LocalidadDAOImp</servlet-name>
+        <servlet-class>Componentes.LocalidadDAOImp</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BorrarLocalidades</servlet-name>
+        <servlet-class>Componentes.BorrarLocalidades</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ActualizarLocalidades</servlet-name>
+        <servlet-class>Componentes.ActualizarLocalidades</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LocalidadLoad</servlet-name>
+        <url-pattern>/LocalidadLoad</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LocalidadDAOImp</servlet-name>
+        <url-pattern>/LocalidadDAOImp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BorrarLocalidades</servlet-name>
+        <url-pattern>/BorrarLocalidades</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ActualizarLocalidades</servlet-name>
+        <url-pattern>/ActualizarLocalidades</url-pattern>
+    </servlet-mapping>
+</web-app>
