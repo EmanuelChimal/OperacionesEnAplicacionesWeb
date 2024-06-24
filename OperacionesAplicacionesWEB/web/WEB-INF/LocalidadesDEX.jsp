@@ -1,7 +1,7 @@
 <%-- 
-    Document   : LocalidadesDEX
+
     Created on : 21 jun. 2024, 16:52:10
-    Author     : Alan DoubleEight4
+    Author     : Emanu
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page import="java.util.List"%>

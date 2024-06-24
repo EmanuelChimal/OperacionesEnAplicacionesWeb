@@ -257,3 +257,5 @@ INSERT INTO alumno_se_matricula_asignatura VALUES (19, 7, 5);
 INSERT INTO alumno_se_matricula_asignatura VALUES (19, 8, 5);
 INSERT INTO alumno_se_matricula_asignatura VALUES (19, 9, 5);
 INSERT INTO alumno_se_matricula_asignatura VALUES (19, 10, 5);
+
+
