@@ -4,10 +4,7 @@
  */
 package Componentes;
 
-/**
- *
- * @author Emanu
- */
+
 class request {
     
 }

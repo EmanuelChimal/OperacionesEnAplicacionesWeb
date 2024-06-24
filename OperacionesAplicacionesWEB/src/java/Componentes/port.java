@@ -4,10 +4,6 @@
  */
 package Componentes;
 
-/**
- *
- * @author Emanu
- */
 class port {
     
 }
